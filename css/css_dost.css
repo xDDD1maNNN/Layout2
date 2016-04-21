@@ -1,0 +1,415 @@
+@font-face {
+font-family: "RexBold";
+src: url("../fonts/RexBold/RexBold.eot");
+src: url("../fonts/RexBold/RexBold.eot?#iefix")format("embedded-opentype"), url("../fonts/RexBold/RexBold.woff") format("woff"), url("../fonts/RexBold/RexBold.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face {
+font-family: "RexBoldInline";
+src: url("../fonts/RexBoldInline/RexBoldInline.eot");
+src: url("../fonts/RexBoldInline/RexBoldInline.eot?#iefix")format("embedded-opentype"), url("../fonts/RexBoldInline/RexBoldInline.woff") format("woff"), url("../fonts/RexBoldInline/RexBoldInline.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+#ardz_dost_main *{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	background-color: transparent;
+	line-height: normal;
+	letter-spacing: normal;
+	vertical-align: baseline;
+	list-style: none;
+	border: none;
+}
+
+#ardz_dost_main{
+	max-width:1200px;
+	min-width:300px;
+	text-align:center;
+}
+
+#ardz_dost_main .dost_polosa{/*полоса под "варианты доставки довара"*/
+	max-width:1200px;
+	margin-top:80px;
+	width:100%;
+	border-bottom:5px solid #f376a3;
+	position:absolute;
+}
+
+#ardz_dost_main .dost_nadpis{/*img "ДОСТАВКА И ОПЛАТА"*/
+	max-width:1200px;
+	margin-top:65px;
+	width:100%;
+	text-align:center;
+	position:absolute;
+}
+
+#ardz_dost_main .kontur1{/*обхват 1,2 значка*/
+	margin-top:170px;
+	float:left;
+	width:100%;
+	text-align:center;
+}
+
+#ardz_dost_main .kontur1 .item1{/*значок девушки с телефоном*/
+	text-align:center;
+	width:280px;
+	height:250px;
+	float: left;
+	margin:0 0 0 5%;/*отступ слева*/
+}
+
+#ardz_dost_main .kontur1 .item2{/*значок белья*/
+	margin:0 5% 0 0;/*отступ справа*/
+	text-align:center;
+	width:250px;
+	height:250px;
+	float: right;
+}
+
+#ardz_dost_main .kontur2{/*обхват 3,4 значка*/
+	margin-top:50px;
+	float:left;
+	width:100%;
+	text-align:center;
+}
+
+#ardz_dost_main .kontur2 .item3{/*значок времени*/
+	margin:0 0 0 5%;/*отступ слева*/
+	text-align:center;
+	width:300px;
+	height:250px;
+	float: left;
+}
+
+#ardz_dost_main .kontur2 .item4{/*значок папки*/
+	margin:0 2.5% 0 0;/*отступ справа*/
+	text-align:center;
+	width:310px;
+	height:250px;
+	float: right;
+}
+
+#ardz_dost_main .dost_text_0{/*свойства текста под значками*/
+	margin-top:20px;
+	color:#f377a4;
+	text-transform:uppercase;
+	font-family: "RexBold";
+	font-size: 14px;
+	line-height:1.5;
+}
+
+#ardz_dost_main .dost_polosa2{/*полоса под "варианты доставки довара"*/
+	margin-top:80px;
+	width:100%;
+	border-bottom:2px solid #f376a3;
+	float:left;
+	position:relative;
+}
+	
+#ardz_dost_main .dost_nadpis2{/*размещение надписи "варианты доставки довара"*/
+	max-width:1200px;
+	margin-top:-20px;
+	margin-left:32.5%;
+	width:35%;
+	float:left;
+	height:70px;
+	position:relative;
+	background:#FFF;
+}
+
+#ardz_dost_main .nadpis2{/*свойства надписи "варианты доставки довара"*/
+	text-transform:uppercase;
+	font-family: "RexBold";
+	font-size: 30px;
+	color:#f1699a;
+	text-align:center;
+	background: #fff;
+}
+
+#ardz_dost_main .dost_text_1{/*свойства надписи "1. Курьерская доставка..."*/
+	width:100%;
+	color:#f376a3;
+	margin-top:35px;
+	text-align:center;
+	font-family:"Arial Black";
+	font-size: 24px;
+	line-height:1.5;
+	float:left;
+}
+
+#ardz_dost_main .dost_text_1_1{
+	width:100%;
+	color:#f376a3;
+	text-align:center;
+	font-family:"Arial Black";
+	font-size: 16px;
+	line-height:1.6;
+	float:left;
+	margin-top:50px;
+}
+
+#ardz_dost_main .dost_text_1_2{
+	width:100%;
+	color:#f376a3;
+	text-align:center;
+	font-family:"Arial Black";
+	font-size: 16px;
+	line-height:1.6;
+	float:left;
+	margin-top:25px;
+}
+
+#ardz_dost_main .dost_text_4{
+	color:#be5479;
+	width:100%;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height:1.6;
+	float:left;
+}
+
+#ardz_dost_main .ser666{/*свойство цвета серый темный*/
+	color:#666666;
+}
+
+#ardz_dost_main .ser999{/*свойство цвета серый светлый*/
+	color:#999999;
+}
+
+
+#ardz_dost_main .pink{/*свойство цвета розовый*/
+	color:#c1557b;
+}
+
+#ardz_dost_main .pink_b{/*свойство цвета розовый темный и не жирный*/
+	color:#be5479;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:1.7;
+}
+
+
+#ardz_dost_main .nowrap{/*свойство неразрывного переноса*/
+	white-space: nowrap;
+}
+
+#ardz_dost_main .pink_blok{/*розовый прямоугольник*/
+	margin-top:45px;
+	margin-left:19%;
+	float:left;
+	width:62%;
+	height:60px;
+	background-color:#f2dde4;
+	border-radius:7px;
+}
+
+#ardz_dost_main .pink_bb{/*свойства текста в розовом прямоугольнике*/
+	color:#c66486;
+	margin-top:18px;
+	font-size:16px;
+	line-height:1.5;
+	text-align:center;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+
+#ardz_dost_main .dost_polosa3{/*разделительная полоса*/
+	float:left;
+	border-bottom:2px solid #f376a3;
+	height:60px;
+	width:100%;
+}
+
+#ardz_dost_main .dost_text_2{
+	width:100%;
+	color:#f376a3;
+	margin-top:60px;
+	text-align:center;
+	font-family:"Arial Black";
+	font-size: 24px;
+	line-height:1.5;
+	float:left;
+}
+
+#ardz_dost_main .pink_1{/*свойства текста заглавный розовый темный*/
+	color:#c1557b;
+	text-transform:uppercase;
+}
+
+#ardz_dost_main .pink_0{/*свойства текста нежирный розовый бледный*/
+	color:#f2dde4;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:1.7;
+}
+
+#ardz_dost_main .pink_01{/*свойства текста розовый бледный*/
+	color:#f2dde4;
+}
+
+#ardz_dost_main .dost_text_3_1{
+	width:100%;
+	color:#f376a3;
+	text-align:center;
+	font-family:"Arial Black";
+	font-size: 16px;
+	line-height:1.7;
+	float:left;
+	margin-top:30px;
+}
+
+#ardz_dost_main .dost_polosa4{/*полоса под "оплата товара"*/
+	max-width:1200px;
+	float:left;
+	border-bottom:2px solid #f376a3;
+	margin-top:80px;
+	width:100%;
+	position:relative;
+}
+
+#ardz_dost_main .dost_nadpis3{/*размещение надписи "оплата товара"*/
+	max-width:1200px;
+	margin-top:-20px;
+	margin-left:41%;
+	width:18%;
+	float:left;
+	height:70px;
+	position:relative;
+	background:#FFF
+}
+
+#ardz_dost_main .dost_text_3_2{
+	width:100%;
+	color:#f376a3;
+	text-align:center;
+	font-family:"Arial Black";
+	font-size: 16px;
+	line-height:1.6;
+	float:left;
+	margin-top:30px;
+}
+
+#ardz_dost_main .otstup{/*нижний отступ 100px*/
+	width:100%;
+	margin-top:100px;
+	float:left;
+}
+
+#ardz_dost_main .dost_text_4_2{
+	text-align:left;
+	width:100%;
+	color:#f376a3;
+	font-family:"Arial Black";
+	font-size: 16px;
+	line-height:1.6;
+	float:left;
+	margin-top:25px;
+	margin-left:15px;
+}
+
+
+@media screen and (max-width:700px){/*адаптация для значков, для размещения друг под другом*/
+#ardz_dost_main .kontur1{
+	margin-top:150px;
+	float:left;
+	width:100%;
+}
+
+#ardz_dost_main .kontur1 .item1{
+	text-align:center;
+	width:280px;
+	height:250px;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ardz_dost_main .kontur1 .item2{
+	text-align:center;
+	width:250px;
+	height:250px;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ardz_dost_main .kontur2{
+	margin-top:30px;
+	float:left;
+	width:100%;
+}
+
+#ardz_dost_main .kontur2 .item3{
+	width:300px;
+	height:250px;
+	float: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ardz_dost_main .kontur2 .item4{
+	text-align:center;
+	width:310px;
+	height:250px;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ardz_dost_main .pink_bb{
+	color:#c66486;
+	margin-top:10px;
+	font-size:14px;
+	line-height:1.5;
+	text-align:center;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+
+@media screen and (max-width:640px){/*адаптация для надписей и полос и одной надписи*/
+	#ardz_dost_main .dost_nadpis2{
+	max-width:1200px;
+	margin-top:-60px;
+	margin-left:32.5%;
+	width:35%;
+	float:left;
+	height:70px;
+	position:relative;
+	background:#FFF;
+}
+
+	#ardz_dost_main .dost_polosa2{
+	margin-top:110px;
+	width:100%;
+	border-bottom:2px solid #f376a3;
+	float:left;
+	position:relative;
+}
+
+	#ardz_dost_main .dost_text_1{
+	width:100%;
+	color:#f376a3;
+	margin-top:65px;
+	text-align:center;
+	font-family:"Arial Black";
+	font-size: 24px;
+	line-height:1.5;
+	float:left;
+}
+
+	#ardz_dost_main .dost_nadpis3{
+	max-width:1200px;
+	margin-top:-40px;
+	margin-left:41%;
+	width:18%;
+	float:left;
+	height:70px;
+	position:relative;
+	background:#FFF
+}}
